@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+#form, #game {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: #078F00;
+  justify-content: center;
+  align-items: center;
+}
+#input {
+  position: absolute;
+  width: 200px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 1px 1px 5px black;
+  font-size: 22px;
+}
+#play, #butshop {
+  position: absolute;
+  margin-top: 90px;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 30px;
+  background-color: #50FF3C;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 10px;
+  color: #316D01;
+  font-family: Open Sans;
+  cursor: pointer;
+  font-weight: 500;
+}
+#game {
+  background-color: #60B025;
+  display: none;
+}
+#player {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  background: #0019DE;
+  box-shadow: 1px 1px 5px black;
+  font-size: 18px;
+  color: white;
+  justify-content: center;
+  font-family: Open Sans;
+}
+#nick {
+  position: absolute;
+  text-align: center;
+  margin-bottom: 80px;
+}
+#play:active {
+  transform: scale(0.95);
+}
+#butshop:active {
+  transform: scale(0.95);
+}
+#name {
+  position: absolute;
+  font-size: 70px;
+  font-weight: 900;
+  color: #7AFF6A;
+  text-shadow: 1px 1px 5px black;
+  margin-bottom: 200px;
+  font-family: Open Sans;
+}
+#shop {
+  width: 80%;
+  height: 70vh;
+  background-color: #8DACFF;
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: 1px 1px 5px black;
+  display: none;
+}
+#gold {
+  position: absolute;
+  font-size: 25px;
+  color: #FCF208;
+  text-shadow: 1px 1px 5px black;
+  top: 10px;
+  left: 10px;
+  font-family: Open Sans;
+}
+#butshop {
+  position: absolute;
+  background-color: #FFDE48;
+  color: #917F29;
+  margin-top: 0;
+  top: 10px;
+  right: 10px;
+}
